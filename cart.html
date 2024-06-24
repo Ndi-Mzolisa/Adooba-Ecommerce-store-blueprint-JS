@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adooba Online Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <section id="header">                        <!-----// Initially has SECTION instead of NAV-->
+            
+            <a href="#"><img src="img/adooba-logo-v5.png" alt="logo" class="logo"></a>
+
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop-clone.html">Shop</a></li>                
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="lg-cart"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                </ul>
+            </div>
+
+            <div id="moblie">
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i class="fa-solid fa-bars" id="bar"></i>
+            </div>
+
+        </section>
+    </nav>
+
+    <main>
+        <section id="page-header" class="about-header">
+            <h2 style="font-family: 'Montserrat', sans-serif;">#chatWithUs</h2>
+            <p style="font-family: 'Poppins', sans-serif; letter-spacing: 2px; line-height: 1.5rem;">Contact us or leave a message below and we will call you back. It's a pleasure to serve you . . . </p>
+        </section>
+        
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"><i class="fa fa-times-circle"></i></a></td>
+                        <td><img src="img/products/f1.jpg" alt=""></td>
+                        <td>Cartoon Astronaut T-Shirt</td>
+                        <td>R399.00</td>
+                        <td><input type="number" value="1"></td>
+                        <td>R399.00</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="fa fa-times-circle"></i></a></td>
+                        <td><img src="img/products/f2.jpg" alt=""></td>
+                        <td>Cartoon Astronaut T-Shirt</td>
+                        <td>R399.00</td>
+                        <td><input type="number" value="1"></td>
+                        <td>R399.00</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="fa fa-times-circle"></i></a></td>
+                        <td><img src="img/products/f3.jpg" alt=""></td>
+                        <td>Cartoon Astronaut T-Shirt</td>
+                        <td>R399.00</td>
+                        <td><input type="number" value="1"></td>
+                        <td>R399.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="card-add" class="section-p1">
+            <div id="coupon">
+                <h3>Apply Coupon (s)</h3>
+                <div>
+                    <input type="text" placeholder="Enter Coupon Code">
+                    <button class="normal">Apply</button>
+                </div>
+            </div>
+
+            <div id="subtotal">
+                <h3>Cart Totals</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>R 1197.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>R 1197.00</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Continue checkout</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/adooba-logo-white.png" alt="footer background">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 369 Rose Petals Avenue, Street No.12, Pandora</p>
+            <p><strong>Phone:</strong> +369 369 369</p>
+            <p><strong>Hours:</strong> 09:30 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-pinterest"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Private Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+    
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+    
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store & Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="App Store Logo">
+                <img src="img/pay/play.jpg" alt="Google Play Logo">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+    
+        <div class="copyright">
+            <p>&copy; 2024 ndiTech369 - HTML CSS JS Ecommerce Store Portfolio Prototype</p>
+        </div>
+    </footer>
+
+
+    
+
+<!----========SCRIPT============================================================================================================================================================================================================================-->
+
+    <script>
+        var MainImg = document.getElementById("MainImg")
+        var smallimg = document.getElementsByClassName("small-img")
+
+        /*>>>> Javascript Logic To Make the 4 Carousal Images take centre stage depending on which image is clicked upon<<<<    ----The default option is specified as the first image already in the html section above. The Logic below changes the src attribute of the Center stage image to change to the src of the image that is clicked upon.*/
+
+        smallimg[0].onclick = function () {
+            MainImg.src = smallimg[0].src
+        }
+
+        smallimg[1].onclick = function () {
+            MainImg.src = smallimg[1].src
+        }
+
+        smallimg[2].onclick = function () {
+            MainImg.src = smallimg[2].src
+        }
+
+        smallimg[3].onclick = function () {
+            MainImg.src = smallimg[3].src
+        }
+
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
